@@ -1,0 +1,127 @@
+<html>
+<head>
+<body>
+<center>
+<body bgcolor="pink">
+<img src="logo.jpg" width="200" height="100">
+</body>
+</head>
+<center>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: green;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+	</style>
+</head>
+<body>
+
+<ul>
+  
+   <li><a href="home.html">HOME</a></li>
+  <li><a href="aboutus.html">ABOUT US</a></li>
+  <li><a href="contactus.html">CONTACTUS</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">COUNTRIES</a>
+    <div class="dropdown-content">
+    <p><a href="australia.html">Australia</a></p>
+	<p><a href="uk.html">UK</a></p>
+	<p><a href="canada.html">Canada</a> </p>
+	<p><a href="usa.html">USA</a></p>
+	<p><a href="new zealand.html">New Zealand</a></p>
+	<p><a href="germany.html">Germany</a></p>
+
+	
+      
+    
+    </div>
+  </li>
+</ul>
+</style>
+</center>
+<body>
+<center>
+<div class="w3-container">
+</div>
+
+<div class="w3-content w3-section" style="max-width:800px">
+  <img class="mySlides w3-animate-right" src="3.png"height=200,width=2000>
+  <img class="mySlides w3-animate-right" src="1.png"height=200,width=2000>
+  <img class="mySlides w3-animate-right" src="abroad2.jpg"height=200,width=2000>
+
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel,2000);    
+}
+</script>
+<div class="borderd">
+</center>
+		<center><h1>ABOUT US</h1></center>
+		<p><font size="4">Bigwave Overseas Education is an institute that undertakes students requirements for our universtites and education partners in each country such as U.S.A,Canada,UK,Australia,New Zealand and manymore.</p>
+
+<p>Since 2013, we have sent thousand of students abroad ,during this time.We are focused on  providing advise and conselling to ensure that students achieve their dreams of being an International educated graduate.</p>
+HIGHWAVE has partnered with large no. of universtites and colleges throught canada,which will have the right course ,within our budget that you can acheive your dreams. Study in canada is fantastic experince which will have  life long positive impact on you and your career.Using our expertise and vast experience we help identify the most suitable university for each student. We are the stepping-stones to their future and are responsibly aware that their success is directly linked to our success.</p>
+</div>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+</html>

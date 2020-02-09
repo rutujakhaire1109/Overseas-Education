@@ -1,0 +1,139 @@
+<html>
+<center>
+<style>
+.borderd{
+	width:1000px;
+	height:400px;
+	border:3px  solid black;
+	padding:20px;
+	}
+	body
+	{
+	background:url("book.jpg") 0% 0%/100% auto no-repeat;
+	
+    
+	}
+	ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: green;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+	</style>
+</head>
+<body>
+
+<ul>
+  
+   <li><a href="home.html">HOME</a></li>
+  <li><a href="aboutus.html">ABOUT US</a></li>
+  <li><a href="contactus.html">CONTACTUS</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">COUNTRIES</a>
+    <div class="dropdown-content">
+    <p><a href="australia.html">Australia</a></p>
+	<p><a href="uk.html">UK</a></p>
+	<p><a href="canada.html">Canada</a> </p>
+	<p><a href="usa.html">USA</a></p>
+	<p><a href="new zealand.html">New Zealand</a></p>
+	<p><a href="germany.html">Germany</a></p>
+
+	
+      
+    
+    </div>
+  </li>
+</ul>
+</style>
+<body>
+
+<div class="w3-container">
+</div>
+body bgcolor="lightblue"
+
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides w3-animate-top" src="uk.jpg" style="width:60%">
+  <img class="mySlides w3-animate-top" src="usa.jpg" style="width:60%">
+  <img class="mySlides w3-animate-top" src="germany.jpg" style="width:60%">
+  <img class="mySlides w3-animate-top" src="new zealand.jpg" style="width:60%"> 
+   <img class="mySlides w3-animate-top" src="canada.jpg" style="width:60%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel,2000);    
+}
+</script>
+</marquee>
+<div class="borderd">
+		<center><h1>STUDYING IN A FOREIGN LAND </h1>
+		<p><font size="5"><h3><The thought itself is daunting and the lack of proper information and high costs involved makes this task even more complicated. BIG WAVE provide students aspiring for an overseas education with step by step guidance and hand-holding throughout the entire process.
+		<p>Our systemized approach and extensive network with universities help students select the ideal university to meet their career goals. This is acheived through concelling and understanding the unique needs of every student.
+		<p>Eligibility criteria,application process ,Visa ,Finances, Accomodation- BIG WAVE overseas education supports you all the way in your quest for a worldclass education.
+		</div></h3>	
+		<br>
+		<br>
+		<center>
+		<marquee behavior="scroll" direction="left">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+
+
+		</html>
